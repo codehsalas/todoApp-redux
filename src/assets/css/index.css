@@ -1,0 +1,165 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 20px 0px !important;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden !important;
+  margin: 20px;
+  border-radius: 15px !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.container-card-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card-box-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box-status-ok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px !important;
+  flex-direction: column;
+  width: 150px !important;
+  background-color: rgb(101, 207, 20);
+  color: white !important;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-box-status-late {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px !important;
+  flex-direction: column;
+  width: 150px !important;
+  background-color: rgb(213, 11, 11);
+  color: white !important;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-box-status-Pending {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px !important;
+  flex-direction: column;
+  width: 150px !important;
+  background-color: rgb(228, 196, 9);
+  color: white !important;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container-card-icon-task {
+  display: flex;
+  align-items: center;
+  line-height: 0px !important;
+}
+
+.card-text-dates {
+  font-size: 0.9rem;
+}
+
+.card-box-buttons-delete {
+  font-size: 0.9rem;
+  color: #bbb9b9;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #c3c3c3;
+  border-radius: 0px 12px 12px 0px;
+  width: 70px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.card-box-buttons-edit {
+  font-size: 0.9rem;
+  color: #bbb9b9;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #c3c3c3;
+  border-radius: 12px 0px 0px 12px;
+  width: 70px;
+  height: 35px;
+  cursor: pointer;
+}
+.card-box-buttons-edit:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-box-buttons-delete:hover {
+    background-color: black;
+    color: white;
+  }
+
+.input-edit-task{
+  border-radius: 12px;
+  border: solid 1px #bbb9b9;
+  margin-right: 8px;
+  height: 30px !important;
+}
+
+.input-edit-task-select{
+  border-radius: 12px;
+  border: solid 1px #bbb9b9;
+  margin-right: 8px;
+  width: 150px;
+  height: 35px !important;
+}
+
+.container-input-task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-input-task>input{
+  border-radius: 12px;
+  border: solid 1px #bbb9b9;
+  margin-right: 8px;
+  height: 30px;
+}
+
+.container-input-task>button{
+  border-radius: 12px;
+  border: solid 1px #bbb9b9;
+  margin-right: 8px;
+  height: 37px;
+  width: 130px;
+  cursor: pointer;
+  background-color: black;
+    color: white;
+}
+
+.header-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* font-family: 'Manrope', sans-serif; */
